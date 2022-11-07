@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background: black;
+}
+
+header{
+    background: black;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 5px white;
+    text-align: center;
+      overflow: hidden;
+}
+
+.nav-bar{
+    display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 6rem;
+}
+
+.logo h1{
+    flex: 20%;
+    color: white;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.logo h1::before{
+    content: "";
+    width: 40px;
+    border-left:4px solid rgb(6, 90, 163);
+}
+
+.conteudoSessao1 p b{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    letter-spacing: 1.6px;
+   
+
+}
+.conteudoSessao1 p b::after{
+    content: "";
+    left: 10%;
+    background: black;
+    width: 38%;
+    height: 11%;
+    position: absolute;
+    animation: meuNome 3s linear forwards;
+}
+
+@keyframes meuNome {
+    100%{
+        left: 47%;
+    }
+}
+
+.linksHeader{
+    flex: 80%;
+    text-align: right;
+}
+.linksHeader ul li{
+    display: inline-block;
+    margin: 25px 30px;
+}
+
+.linksHeader ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all  2s;
+}
+.linksHeader ul li a:hover{
+    color: rgb(6, 90, 163);
+    font-weight: bold;
+    transition: all 1s;
+    border-bottom:3px solid  rgb(6, 90, 163);
+}
+
+section{
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+   text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section:nth-of-type(1){
+    background: black;
+    text-align: left;
+    margin-top: 6%;
+}
+
+section:nth-of-type(2){
+    background: rgb(31, 31, 31);
+}
+
+section:nth-of-type(3){
+    background: none;
+    height: 1380px;
+}
+
+section:nth-of-type(4){
+    background: rgb(31, 31, 31);
+}
+
+#contr{
+      color: rgb(151, 150, 150);
+}
+
+section h2 {
+   color: white;
+   letter-spacing: 1px;
+}
+
+section p{
+    color: rgb(176, 176, 176);
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    letter-spacing: 1px;
+}
+
+#sessao1{
+    display: flex;
+}
+
+.conteudoSessao1{
+    flex: 50%;
+    margin-top: 4%;
+    perspective: 300px;
+}
+
+.imgSessao1{
+    flex: 50%;
+    text-align: center;
+    margin-top: -4%;
+}
+
+.imgSessao1 img{
+    max-width: 50%;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+#github{
+    margin-left: 10%;
+}
+
+#sessao1 button{
+    transition: all 2s;
+    margin: 35px 0px;
+    margin-right: 3%;
+    cursor: pointer;
+    width: 17%;
+    height: 13%;
+    border: none;
+    outline: none;
+    border: 1.5px solid rgb(6, 90, 163);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: 500;
+    background: rgb(17, 46, 54);
+}
+#sessao1 button:hover{
+    transform: scale(1.2);
+}
+
+
+#sessao3{
+    text-align: left;
+}
+
+#sessao3 h2{
+    margin-left: 5%;
+}
+
+#sessao3 h2::before{
+    content: "";
+    width: 40px;
+    border-left:4px solid rgb(6, 90, 163);
+}
+
+.cardProjeto{
+    width: 445px;
+    height: 130px;
+    background: rgb(37, 35, 35);
+    border-left: 4px solid rgb(6, 90, 163);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.projetos{
+  display: flex;
+    align-items: center;
+  flex-direction: row;
+}
+
+.all h3{
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    letter-spacing: 1px;
+}
+.all{
+   height: 100% ;
+   width: 60%;
+}
+.all button{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 10px;
+    cursor: pointer;
+    width: 155px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border: 1.5px solid rgb(6, 90, 163);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 2s;
+    background: rgb(17, 46, 54);
+}
+.all button:hover{
+    transform: scale(1.1);
+}
+
+#sessao2{
+   display: flex;
+}
+#sessao2 h2{
+    text-align: left;
+}
+#sessao2 h2::before{
+    content: "";
+    width: 40px;
+    border-left:4px solid rgb(6, 90, 163);
+}
+#sessao2 p{
+    margin-left: 0%;
+    margin-right: 3%;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.slider{
+    flex: 50% ;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.slides{
+    overflow: hidden;
+   display: flex; 
+    width: 200px;
+    height: 300px;
+}
+
+.slide{
+    position: relative;
+    width: 100%; 
+    transition: 2s;
+}
+
+.slider input{
+    display: none;
+}
+
+.manual-label{
+    position: absolute;
+    width: 200px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+#manual-btn{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    border:2px solid rgb(6, 90, 163);
+    transition: 2s;
+}
+#manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+#manual-btn:hover{
+    background: #fff;
+}
+.slide img{
+    width: 200px;
+    position: relative;
+    max-height: 290px;
+    border-left: 4px solid rgb(6, 90, 163);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.auto-btn div{ 
+    cursor: pointer;
+    border:2px solid rgb(6, 90, 163);
+    transition: 2s;
+    border-radius: 10px;
+    padding: 5px;
+}
+#radio1:checked ~ .auto-btn .auto-btn1{
+    background: #fff;
+}
+#radio2:checked ~ .auto-btn .auto-btn2{
+    background: #fff;
+}
+#radio3:checked ~ .auto-btn .auto-btn3{
+    background: #fff;
+}
+#radio4:checked ~ .auto-btn .auto-btn4{
+    background: #fff;
+}
+
+.auto-btn{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.auto-btn div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .first{
+    margin: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+
+
+
+.conteudoSessao2{
+    flex: 50%;
+   
+}
+
+#sessao4 h2::before{
+    content: "";
+    width: 40px;
+    border-left:4px solid rgb(6, 90, 163);
+}
+
+#sessao4{
+    text-align: left;
+    display: flex;
+    flex-direction:row;
+}
+
+.escolhaHabilidades{
+    flex: 10%;
+    margin-left: 5%;
+    perspective: 400px;
+}
+.hab{
+    display: flex;
+    flex-direction: row;
+}
+
+.explicaHabilidades{
+    flex: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#star{
+        color: yellow;
+}
+
+.btn{
+    cursor: pointer;
+    background: rgb(17, 46, 54);
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 14%;
+    border: 2px solid rgb(65, 112, 113);
+    margin: 7px 10px;
+    transition: all 1s; 
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.hab i{
+    font-size: 40px;
+}
+.btn-html i{
+    color: rgb(47, 26, 3);
+}
+
+.btn-cssFont i{
+    color: blue;
+}
+
+.btn-jsFont i{
+    color: yellow;
+}
+
+.HTML{
+    display: flex;
+    flex-direction: column;
+}
+.btn-htm{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn-html{
+ animation: btn-html 3s ease alternate infinite;
+}
+@keyframes btn-html{
+    0%{
+        background: rgb(84, 49, 12);
+    }
+    50%{
+        background: rgb(111, 69, 25);
+    }
+    100%{
+        background: rgb(84, 49, 12);
+    }
+}
+.btn-html i{
+ animation: btn-htmli 4s ease alternate infinite;
+}
+@keyframes btn-htmli{
+    0%{
+        color: rgb(47, 26, 3);
+    }
+    50%{
+       color: white;
+    }
+    100%{
+        color: rgb(47, 26, 3);
+    }
+}
+
+.btn-nodeFont i{
+    color: green;
+}
+.cont-htm{
+    flex: 60%;
+}
+
+.CSS{
+    display: flex;
+}
+
+.btn-css{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cssFont{
+    animation: btn-cssFont 3s ease alternate infinite;
+   }
+   @keyframes btn-cssFont{
+       0%{
+           background: rgb(0, 0, 83);
+       }
+       50%{
+           background: rgb(18, 18, 139);
+       }
+       100%{
+           background: rgb(0, 0, 83);
+       }
+   }
+
+.btn-cssFont i{
+    animation: btn-cssFonti 4s ease alternate infinite;
+   }
+   @keyframes btn-cssFonti{
+       0%{
+           color: blue;
+       }
+       50%{
+           
+           color: white;
+       }
+       100%{
+             color: blue;
+       }
+   }
+
+.cont-css{
+    flex: 60%;
+}
+.btn-nodeFont{
+    animation: node 2.5s ease alternate infinite;
+}
+@keyframes node{
+    0%{
+        background: rgb(0, 83, 44);
+    }
+    50%{
+        background: rgb(19, 59, 32);
+    }
+    100%{
+        background: rgb(0, 83, 44);
+    }
+}
+.btn-nodeFont i{
+    animation: nodei 4s ease alternate infinite;
+}
+@keyframes nodei{
+    0%{
+       color: green;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: green;
+    }
+}
+
+.JS{
+    display: flex;
+}
+
+.btn-js{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-jsFont{
+    animation: btn-jsFont 2.5s ease alternate infinite;
+}
+   @keyframes btn-jsFont{
+       0%{
+        background: rgb(151, 151, 11,.7);
+       }
+       50%{
+        background: rgb(162, 162, 30,.3);
+       }
+       100%{
+        background: rgb(151, 151, 11,.7);
+       }
+   }
+   .btn-jsFont i{
+    animation: btn-jsFonti 4s ease alternate infinite;
+   }
+   @keyframes btn-jsFonti{
+       0%{
+        color: yellow;
+       }
+       50%{
+        color: white;
+       }
+       100%{
+        color: yellow;
+       }
+   }
+
+.cont-js{
+    flex: 60%;
+}
+
+.btn-phpFont{
+    animation: btn-phpFont 1.9s ease alternate infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+   }
+   @keyframes btn-phpFont{
+    0%{
+        background: rgb(0, 0, 83);
+    }
+    50%{
+        background: rgb(18, 18, 139);
+    }
+    100%{
+        background: rgb(0, 0, 83);
+    }
+   }
+
+#tec{
+    color: rgb(8, 77, 137);
+    letter-spacing: 1px;
+}
+
+
+.topIr{
+    position: relative;
+   bottom: 50px;
+    right: 15px;
+    transition: 2s;
+   margin-left: 95%;
+  }
+
+  .topIr:hover{
+    transform: scale(1.1);
+  }
+  #irAoTopo:hover{
+    background: rgb(125, 83, 0);
+  }
+  #irAoTopo{
+    transition: 2s;
+    font-size: 20px;
+    color: white;
+     border-radius: 3px;
+    padding: 15px;
+    width: 40px;
+    background: rgb(6, 90, 163);
+  }
+
+  #irAoTopo::after{
+    content: "^";
+  }
+
+  [data-scrollAnimation]{
+    opacity: 0;
+    transition: .5s;
+  }
+
+  [data-scrollAnimation="left"]{
+    transform: translate3d(-50px, 0, 0);
+  }
+
+  [data-scrollAnimation].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+
+  .menor::before{
+    content: '<';
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+   margin-top: 120px;
+   cursor: pointer;
+    justify-content: center;
+  }
+  
+  .maior::after{
+    content: '>';
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+   margin-top: 120px;
+   cursor: pointer;
+    justify-content: center;
+  }
+
+  .img-Header-Menu{
+    display: none;
+  }
+
+  .img-Header-Menu img{
+        max-width: 50px;
+  }
+
+  .img-Header-Menu button {
+    background: transparent;
+    border: none;
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+
+  .mobile-menu ul{
+    list-style: none;
+  }
+
+  .mobile-menu{
+    border-top: 2px solid white;
+  }
+  .mobile-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all  2s;
+    margin: 2%;
+}
+.mobile-menu ul li a:hover{
+    color: rgb(6, 90, 163);
+    font-weight: bold;
+    transition: all 1s;
+    border-bottom:3px 4px solid  rgb(6, 90, 163);
+}

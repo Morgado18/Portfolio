@@ -1,0 +1,1397 @@
+
+
+ @media (max-width:770px){
+            
+    .icon{
+        cursor: pointer;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .img-Header-Menu{
+        display: block;
+    }
+        header{
+            padding: 0rem 1rem;
+        }
+        
+    .nav-bar{
+    display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 4rem;
+}
+
+    .linksHeader #linkItem{
+        display: none;
+    }
+
+    .mobile-menu #linkItem{
+        display: block;
+    }
+    .mobile-menu{
+        background: rgb(31, 31, 31);
+    }
+
+   .open{
+    display: block;
+   }
+
+ }
+ 
+ @media only screen and (min-width:280px){
+
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+        overflow-x: hidden;
+        overflow: hidden;
+    } .conteudoSessao1{
+        overflow-x: hidden;
+    } #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        padding: 0.5rem 2rem;
+    }
+    section:nth-of-type(1){
+        height: 33rem;
+        margin-bottom: 1rem;
+    }
+            
+    #sessao1{  
+        flex-direction: column;
+    }
+
+    .conteudoSessao1{
+        flex: 100%;
+        margin-top: -3%;
+    }
+    .botoeSessao1{
+        display: flex;
+        flex-direction: row;
+        margin-left: -1.7rem;
+    }
+
+    .imgSessao1{
+        flex: 100%;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    #sessao1 button{
+        margin: 12px 5px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+
+    .conteudoSessao1 p b{
+        color: rgb(15, 97, 170);
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 2rem;
+        width: 20rem;
+       color: rgb(6, 90, 163);
+        height: 11%;
+        border-radius: 9px;
+        animation: meuNome 5s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 90%;
+        }
+    }
+
+    .cardProjeto #h{
+        font-size: 14px;
+    }
+    .cardProjeto p{
+        font-size: 12px;
+    }
+            
+    #sessao2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sessao2 h2{
+        margin-left: 2rem;
+    }
+            
+    #sessao2 p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 100% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: -125%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        height: 140rem;
+    }
+
+    .projetos{
+      flex-direction: column;
+    }
+    .cardProjeto{
+        width: 55vh;
+        height: 110px;
+        margin-left: -25%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: -25%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }       
+  
+  .topIr{
+        right: 38px;
+        bottom: 3rem;
+    }
+        #sessao4{
+            text-align: left;
+            display: flex;
+            padding: 0rem 2rem;
+            flex-direction:column;
+        }
+        .btn{
+            padding: 14px;
+            height: 60px;
+            width: 60px;
+            margin-right: 14%;
+            margin: 7px 10px;
+        }
+        .hab i{
+            font-size: 25px;
+        }
+        
+        .escolhaHabilidades{
+            flex: 100%;
+            margin-left: 5%;
+            perspective: 400px;
+        }
+        .hab{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .explicaHabilidades{
+            flex: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+                
+ }
+
+ @media only screen and (min-width:350px){
+
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+        overflow-x: hidden;
+    } .conteudoSessao1{
+        overflow-x: hidden;
+    } #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        padding: 0.5rem 2rem;
+    }
+    section:nth-of-type(1){
+        height: 33rem;
+        margin-bottom: 1rem;
+    }
+            
+    #sessao1{  
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .conteudoSessao1{
+        flex: 100%;
+        margin-top: -3%;
+    }
+    .botoeSessao1{
+        display: flex;
+        flex-direction: row;
+        margin-left: -0rem;
+    }
+
+    .imgSessao1{
+        flex: 100%;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    #sessao1 button{
+        margin: 12px 5px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+    .conteudoSessao1 p b{
+         color: rgb(6, 90, 163);
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 2rem;
+        width: 20rem;
+        height: 11%;
+        border-radius: 9px;
+        animation: meuNome 8s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 150%;
+        }
+    }
+
+    .cardProjeto #h{
+        font-size: 14px;
+    }
+    .cardProjeto p{
+        font-size: 12px;
+    }
+            
+    #sessao2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sessao2 h2{
+        margin-left: 2rem;
+    }
+            
+    #sessao2 p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 100% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: -100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        height: 140rem;
+    }
+
+    .projetos{
+      flex-direction: column;
+    }
+    .cardProjeto{
+        width: 55vh;
+        height: 110px;
+        margin-left: -25%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: -25%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }       
+  
+  .topIr{
+        right: 38px;
+        bottom: 3rem;
+    }
+        #sessao4{
+            text-align: left;
+            display: flex;
+            padding: 0rem -4rem;
+            flex-direction:column;
+        }
+        .btn{
+            padding: 14px;
+            height: 55px;
+            width: 55px;
+            margin-right: 14%;
+            margin: 7px 6px;
+        }
+        .hab i{
+            font-size: 25px;
+        }
+        
+        .escolhaHabilidades{
+            flex: 100%;
+            margin-left: -3%;
+            perspective: 400px;
+        }
+        .hab{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        
+        .explicaHabilidades{
+            flex: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+                
+ }
+
+ @media only screen and (min-width:400px){
+
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+        overflow-x: hidden;
+    } .conteudoSessao1{
+        overflow-x: hidden;
+    } #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        padding: 0.5rem 2rem;
+    }
+    section:nth-of-type(1){
+        height: 33rem;
+        margin-bottom: 1rem;
+    }
+            
+    #sessao1{  
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .conteudoSessao1{
+        flex: 100%;
+        margin-top: -3%;
+    }
+    .botoeSessao1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+    } #sessao1 button{
+        margin: 12px 8px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+
+    .imgSessao1{
+        flex: 100%;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 2rem;
+        width: 20rem;
+        height: 11%;
+        border-radius: 9px;
+        animation: meuNome 10s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 150%;
+        }
+    }
+
+    .cardProjeto #h{
+        font-size: 14px;
+    }
+    .cardProjeto p{
+        font-size: 12px;
+    }
+            
+    #sessao2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sessao2 h2{
+        margin-left: 2rem;
+    }
+            
+    #sessao2 p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 100% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: -80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        height: 145rem;
+    }
+
+    .projetos{
+      flex-direction: column;
+    }
+    .cardProjeto{
+        width: 100vh;
+        height: 120px;
+        margin-left: -25%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: -25%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }       
+  
+  .topIr{
+        right: 38px;
+        bottom: 4rem;
+    }
+        #sessao4{
+            text-align: left;
+            display: flex;
+            padding: 0rem 2rem;
+            flex-direction:column;
+        }
+        .btn{
+            padding: 14px;
+            height: 60px;
+            width: 60px;
+            margin-right: 14%;
+            margin: 7px 6px;
+        }
+        .hab i{
+            font-size: 25px;
+        }
+        
+        .escolhaHabilidades{
+            flex: 100%;
+            margin-left: 5%;
+            perspective: 400px;
+        }
+        .hab{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        
+        .explicaHabilidades{
+            flex: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+                
+ }
+ 
+ @media only screen and (min-width:500px){
+
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+        overflow-x: hidden;
+    } .conteudoSessao1{
+        overflow-x: hidden;
+    } #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-bar{
+        padding: 0.5rem 2rem;
+    }
+    section:nth-of-type(1){
+        height: 33rem;
+        margin-bottom: 1rem;
+    }
+            
+    #sessao1{  
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .conteudoSessao1{
+        flex: 100%;
+        margin-top: -3%;
+    }.conteudoSessao1 p b{
+        color: rgb(6, 90, 163);
+   }
+    .botoeSessao1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 6rem;
+    } #sessao1 button{
+        margin: 12px 5px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+
+    .imgSessao1{
+        flex: 100%;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 2rem;
+        width: 20rem;
+        height: 11%;
+        border-radius: 9px;
+        animation: meuNome 10s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 150%;
+        }
+    }
+
+    .cardProjeto #h{
+        font-size: 14px;
+    }
+    .cardProjeto p{
+        font-size: 12px;
+    }
+            
+    #sessao2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sessao2 h2{
+        margin-left: 2rem;
+    }
+            
+    #sessao2 p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 100% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: -65%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        height: 140rem;
+    }
+
+    .projetos{
+      flex-direction: column;
+    }
+    .cardProjeto{
+        width: 100vh;
+        height: 120px;
+        margin-left: -25%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: -25%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }       
+  
+  .topIr{
+        right: 38px;
+        bottom: 4rem;
+    }
+        #sessao4{
+            text-align: left;
+            display: flex;
+            padding: 0rem 2rem;
+            flex-direction:column;
+        }
+        .btn{
+            padding: 14px;
+            height: 60px;
+            width: 60px;
+            margin-right: 14%;
+            margin: 7px 10px;
+        }
+        .hab i{
+            font-size: 25px;
+        }
+        
+        .escolhaHabilidades{
+            flex: 100%;
+            margin-left: 5%;
+            perspective: 400px;
+        }
+        .hab{
+            display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+        }
+        
+        .explicaHabilidades{
+            flex: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+                
+ }
+
+ @media only screen and (min-width: 600px) {
+        #sessao1, #sessao2, #sessao3, #sessao4 {
+            text-align: center;
+        }
+        
+        section:nth-of-type(1){
+            height: 23rem;
+            margin-bottom: 2rem;
+        } 
+        .conteudoSessao1{
+            overflow: hidden;
+        }
+        
+    .botoeSessao1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8rem;
+    } 
+                
+        #sessao1{  
+            flex-direction: column;
+        }
+
+        .conteudoSessao1{
+            flex: 100%;
+            margin-top: -3%;
+        }.conteudoSessao1 p b{
+            color: rgb(6, 90, 163);
+       }
+
+        .imgSessao1{
+            flex: 100%;
+        }
+                
+        .imgSessao1 img{
+            max-width: 15rem;
+        }
+                
+        #sessao1 button{
+            margin: 12px 5px;
+            width: 9rem;
+            height: 2.2rem;
+            letter-spacing: 1.5px;
+            font-size: 15px;
+        }
+        #sessao1 button:hover{
+            transform: scale(1.1);
+        }
+                
+        .logo h1{
+            flex: 80%;
+            font-size: 16px;
+         
+        }
+                
+        .linksHeader{
+            flex: 20%;
+        }
+        
+        .conteudoSessao1 p b::after{
+            content: "";
+            left: 10rem;
+            width: 150%;
+            height: 18%;
+            border-radius: 9px;
+            animation: meuNome 15s forwards;
+        }
+
+        @keyframes meuNome {
+            100%{
+                left: 150%;
+            }
+        }
+                
+        #sessao2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #sessao2 h2{
+            margin-left: 3rem;
+        }
+                
+        #sessao2 p{
+            text-align: center;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+                
+        .slider{
+            flex: 100% ;
+            width: 70rem;
+            height: 10rem;
+            margin-left: -33%;
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+      
+        #sessao3{
+            text-align: left;
+            overflow-x: hidden;
+            height: 148rem;
+        }
+
+        .projetos{
+          flex-direction: column;
+         
+        }
+        .cardProjeto{
+            width: 100vh;
+            height: 130px;
+            margin-left: -25%;
+        }
+
+        .all p, #h, #btnP{
+            margin-left: -25%;
+        }
+                
+        section:nth-of-type(3){
+            height: 2400px;
+        }
+       
+#sessao4{
+    text-align: left;
+    display: flex;
+    padding: 0rem 4rem;
+    flex-direction:column;
+}
+.btn{
+    padding: 14px;
+    height: 60px;
+    width: 60px;
+    margin-right: 0;
+    margin: 7px 8px;
+}
+.escolhaHabilidades{
+    flex: 100%;
+    margin-left: 5%;
+    perspective: 400px;
+}
+.hab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.explicaHabilidades{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                        
+
+        .topIr{
+            right: 38px;
+            bottom: 3rem;
+        }
+
+ }
+ 
+ @media only screen and (min-width: 700px) {
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+    }
+    
+    section:nth-of-type(1){
+        height: 23rem;
+        margin-bottom: 2rem;
+    } 
+    .conteudoSessao1{
+        overflow: hidden;
+    }
+    
+.botoeSessao1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11rem;
+} 
+            
+    #sessao1{  
+        flex-direction: column;
+    }
+
+    .conteudoSessao1{
+        flex: 100%;
+        margin-top: -3%;
+    }.conteudoSessao1 p b{
+        color: rgb(6, 90, 163);
+   }
+
+    .imgSessao1{
+        flex: 100%;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    #sessao1 button{
+        margin: 12px 5px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+    #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 10rem;
+        width: 150%;
+        height: 18%;
+        border-radius: 9px;
+        animation: meuNome 15s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 150%;
+        }
+    }
+            
+    #sessao2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sessao2 h2{
+        margin-left: 3rem;
+    }
+            
+    #sessao2 p{
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 100% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: -23%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        overflow-x: hidden;
+        height: 82rem;
+    }
+
+    .projetos{
+      flex-direction: row;
+     
+    }
+    .cardProjeto{
+        width: 60vh;
+        height: 130px;
+        margin-left: 5%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: 5%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }
+   
+#sessao4{
+text-align: left;
+display: flex;
+padding: 0rem 0rem;
+flex-direction:row;
+}
+.btn{
+padding: 14px;
+height: 60px;
+width: 60px;
+margin-right: 0;
+margin: 0px 7px;
+}
+.escolhaHabilidades{
+flex: 100%;
+margin-left: 5%;
+perspective: 400px;
+}
+.hab{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.explicaHabilidades{
+flex: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+                    
+    .topIr{
+        right: 38px;
+        bottom: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    #sessao1, #sessao2, #sessao3, #sessao4 {
+        text-align: center;
+    }
+    
+    section:nth-of-type(1){
+        height: 23rem;
+        margin-bottom: 2rem;
+    } 
+    .conteudoSessao1{
+        overflow: hidden;
+    }
+    
+.botoeSessao1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+} 
+            
+    #sessao1{  
+        margin-top: 3rem;
+        flex-direction: row;
+        height: 10rem;
+    }
+
+    .conteudoSessao1{
+        text-align: left;
+        flex: 70%;
+        margin-top: 4rem;
+    }.conteudoSessao1 p b{
+        color: rgb(6, 90, 163);
+   }
+
+    .imgSessao1{
+        flex: 30%;
+        margin-top: 1rem;
+    }
+            
+    .imgSessao1 img{
+        max-width: 15rem;
+    }
+            
+    #sessao1 button{
+        margin: 12px 5px;
+        width: 9rem;
+        height: 2.2rem;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+    #sessao1 button:hover{
+        transform: scale(1.1);
+    }
+            
+    .logo h1{
+        flex: 80%;
+        font-size: 16px;
+     
+    }
+            
+    .linksHeader{
+        flex: 20%;
+    }
+    
+    .conteudoSessao1 p b::after{
+        content: "";
+        left: 3rem;
+        width: 150%;
+        height: 13.6%;
+        border-radius: 9px;
+        animation: meuNome 15s forwards;
+    }
+
+    @keyframes meuNome {
+        100%{
+            left: 150%;
+        }
+    }
+            
+    #sessao2{
+        flex-direction: row;
+        overflow-y: hidden;
+    }
+
+    #sessao2 h2{
+        margin-left: 1rem;
+    }
+            
+    #sessao2 p{
+        text-align: left;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+            
+    .slider{
+        flex: 30% ;
+        width: 70rem;
+        height: 10rem;
+        margin-left: 3%;
+        display: flex;
+        justify-content: center;
+        margin-top: -8%;
+    }
+  
+    #sessao3{
+        text-align: left;
+        overflow-x: hidden;
+        height: 82rem;
+    }
+
+    .projetos{
+      flex-direction: row;
+     
+    }
+    .cardProjeto{
+        width: 70vh;
+        height: 130px;
+        margin-left: 5%;
+    }
+
+    .all p, #h, #btnP{
+        margin-left: 5%;
+    }
+            
+    section:nth-of-type(3){
+        height: 2400px;
+    }
+   
+#sessao4{
+text-align: left;
+display: flex;
+padding: 0rem 0rem;
+flex-direction:row;
+}
+.btn{
+padding: 14px;
+height: 60px;
+width: 60px;
+margin-right: 0;
+margin: 0px 7px;
+}
+.escolhaHabilidades{
+flex: 100%;
+margin-left: 5%;
+perspective: 400px;
+}
+.hab{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.explicaHabilidades{
+flex: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+                    
+    .topIr{
+        right: 38px;
+        bottom: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 1001px) {
+
+    
+#sessao1{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+} 
+.botoeSessao1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+    text-align: left;
+} 
+
+.conteudoSessao1{
+    flex: 50%;
+    margin-top: 4%;
+    perspective: 300px;
+}
+
+.imgSessao1{
+    flex: 50%;
+    text-align: center;
+    margin-top: -0%;
+}
+
+.imgSessao1 img{
+    max-width: 45%;
+    cursor: pointer;
+    transition: 2s;
+}
+
+    #sessao2{
+        display: flex;
+        flex-direction: row;
+     }
+     #sessao2 h2{
+         text-align: left;
+     }
+     #sessao2 h2::before{
+         content: "";
+         width: 40px;
+         border-left:4px solid rgb(6, 90, 163);
+     }
+     #sessao2 p{
+         margin-left: 0%;
+         margin-right: 3%;
+         letter-spacing: 1.5px;
+         text-align: left;
+     }
+     
+     .slider{
+         flex: 50% ;
+         width: 200px;
+         height: 300px;
+         margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         margin-top: 1%;
+     }
+     
+     .slides{
+         overflow: hidden;
+        display: flex; 
+         width: 200px;
+         height: 300px;
+     }
+     
+     .slide{
+         position: relative;
+         width: 100%; 
+         transition: 2s;
+     }
+
+.all p, #h, #btnP{
+        margin-left: 10%;
+}
+    
+#sessao3{
+    text-align: left;
+}
+
+#sessao3 h2{
+    margin-left: 5%;
+}
+
+#sessao3 h2::before{
+    content: "";
+    width: 40px;
+    border-left:4px solid rgb(6, 90, 163);
+}
+
+.cardProjeto{
+    width: 445px;
+    height: 130px;
+    background: rgb(37, 35, 35);
+    border-left: 4px solid rgb(6, 90, 163);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.projetos{
+  display: flex;
+    align-items: center;
+  flex-direction: row;
+}
+
+.all h3{
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    letter-spacing: 1px;
+}
+.all{
+   height: 100% ;
+   width: 60%;
+}
+.all button{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 10px;
+    cursor: pointer;
+    width: 155px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border: 1.5px solid rgb(6, 90, 163);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 2s;
+    background: rgb(17, 46, 54);
+}
+.all button:hover{
+    transform: scale(1.1);
+}
+ 
+#sessao4{
+    text-align: left;
+    display: flex;
+    flex-direction:row;
+}
+
+.escolhaHabilidades{
+    flex: 10%;
+    margin-left: 5%;
+    perspective: 400px;
+}
+.hab{
+    display: flex;
+    flex-direction: row;
+}
+
+.explicaHabilidades{
+    flex: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
