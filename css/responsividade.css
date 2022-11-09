@@ -216,12 +216,14 @@
         }
                 
  }
+ 
 
  @media only screen and (min-width:350px){
 
     #sessao1, #sessao2, #sessao3, #sessao4 {
         text-align: center;
         overflow-x: hidden;
+        overflow: hidden;
     } .conteudoSessao1{
         overflow-x: hidden;
     } #sessao1 button:hover{
@@ -340,7 +342,7 @@
       flex-direction: column;
     }
     .cardProjeto{
-        width: 55vh;
+        width: 100vh;
         height: 110px;
         margin-left: -25%;
     }
