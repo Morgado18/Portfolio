@@ -168,7 +168,7 @@ let next =document.querySelector('div .maior');
     let menuMobile = document.querySelector('.mobile-menu')
     if (menuMobile.classList.contains('open')){
       menuMobile.classList.remove('open')
-     document.querySelector('.icon').src="css/imagens/barras.png"
+     document.querySelector('.icon').src="css/imagens/barras.PNG"
     }
     else{
       menuMobile.classList.add('open')
