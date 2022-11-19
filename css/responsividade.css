@@ -48,7 +48,11 @@
         overflow-x: hidden;
     } #sessao1 button:hover{
         transform: scale(1.1);
+    } header{
+
+        box-shadow: none;
     }
+  
 
     body{
         overflow-x: hidden;
@@ -148,15 +152,22 @@
         flex: 100% ;
         width: 70rem;
         height: 10rem;
-        margin-left: -125%;
+        margin-left: -140%;
         display: flex;
         justify-content: center;
         margin-top: 2%;
     }
+    .slides{
+        overflow: hidden;
+       display: flex; 
+        width: 170px;
+        height: 300px;
+    }
+    
   
     #sessao3{
         text-align: left;
-        height: 140rem;
+        height: 145rem;
     }
 
     .projetos{
